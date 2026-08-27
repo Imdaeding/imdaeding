@@ -43,7 +43,7 @@
   * **Summary:** Jetson Orin Nano 기반의 LiDAR SLAM 및 비전 인식 통합 자율순찰 플랫폼
   * **Role & Tech:** ROS 2 노드 아키텍처 구성, Cartographer 2D SLAM 맵핑, YOLOv11s 실시간 객체 탐지 파이프라인 최적화, BEV 원근 변환 적용
   * **Stack:** `ROS 2` `NVIDIA Jetson Orin Nano` `Cartographer` `YOLOv11s` `OpenCV` `Python`
-  * 🔗 [Repository](https://github.com/대현/저장소명) | [Demo / Documentation](https://notion.so/링크)
+  * 🔗 [Repository](https://github.com/Imdaeding/Autonomous_Indoor_Navigation_Robot_Utilizing_YOLO_And_SLAM) | [Demo / Documentation](https://notion.so/링크)
 
 * **무선 통신 기반 스마트 버스 정류장 호출 단말기**
   * **Summary:** 교통 약자를 위한 저전력 무선 호출 단말기 및 직관적인 UI 인터페이스 구축
