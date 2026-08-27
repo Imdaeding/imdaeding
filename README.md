@@ -1,7 +1,7 @@
 <div align="center">
 
   # 김대현 (Daehyeon Kim / Johnny)
-  ### Undergraduate Student in Electronic Engineering
+  ### Undergraduate Student in Electronic & Communication Engineering
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/본인아이디)
   [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:kdh336534@kw.ac.kr)
