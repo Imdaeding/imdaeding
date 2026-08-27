@@ -13,7 +13,7 @@
 
 ### 📌 About Me
 
-- 🎓 **Major:** 광운대학교 전자통신공학과 (Electronic & Communication Engineering)
+- 🎓 **Major:** 광운대학교 전자통신공학과 (Kwangwoon Univ. Electronic & Communication Engineering)
 - 🔬 **Interests:** 임베디드 시스템, 로보틱스(ROS 2/SLAM), 컴퓨터 비전, 디지털 시스템 설계, AI 에이전트 파이프라인
 - 💡 **Goal:** 
 
