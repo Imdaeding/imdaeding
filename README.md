@@ -49,7 +49,7 @@
   * **Summary:** 교통 약자를 위한 저전력 무선 호출 단말기 및 직관적인 UI 인터페이스 구축
   * **Role & Tech:** HC-12 무선 RF 통신 프로토콜 설계, Raspberry Pi Zero & TFT 디스플레이 GUI 구현, 임베디드 시리얼 통신 안정화
   * **Stack:** `Raspberry Pi Zero 2 W` `Arduino Nano` `Python (GUI)` `HC-12 RF`
-  * 🔗 [Repository](https://github.com/대현/저장소명)
+  * 🔗 [Repository]((https://github.com/Imdaeding/Smart_Bus_Stop_Call_System))
 
 ---
 
