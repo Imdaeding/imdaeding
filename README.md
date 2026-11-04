@@ -22,7 +22,7 @@
 ### 🛠 Tech Stack
 
 > **Core Languages**  
-> `C` · `C++` · `Python` · `Verilog HDL` · `ARM Assembly` · `MATLAB`
+> `C` · `C++` · `Python` · `Verilog HDL` · `TypeScript` · `MATLAB`
 
 > **Embedded, Robotics & Edge AI**  
 > `ROS 2` · `NVIDIA Jetson` · `OpenCV` · `PyTorch` · `Raspberry Pi` · `Arduino`
@@ -30,8 +30,8 @@
 > **Hardware & EDA Tools**  
 > `Xilinx Vivado` · `PSpice` · `Cartographer SLAM` · `YOLO`
 
-> **AI Workflows & Productivity**  
-> `LangGraph` · `Ollama` · `Git` · `Notion` · `Obsidian`
+> **AI Workflows, Web & Productivity**  
+> `Next.js` · `Supabase (pgvector)` · `LangGraph` · `Ollama` · `Git` · `Notion` · `Obsidian`
 
 ---
 
@@ -39,39 +39,45 @@
 
 #### 1. 🤖 Robotics & Embedded AI
 
-* **실내 자율주행 안전 순찰 로봇 (CapStone Design)**
+- **실내 자율주행 안전 순찰 로봇 (CapStone Design)**
   * **Summary:** Jetson Orin Nano 기반의 LiDAR SLAM 및 비전 인식 통합 자율순찰 플랫폼
   * **Role & Tech:** ROS 2 노드 아키텍처 구성, Cartographer 2D SLAM 맵핑, YOLOv11s 실시간 객체 탐지 파이프라인 최적화, BEV 원근 변환 적용
   * **Stack:** `ROS 2` `NVIDIA Jetson Orin Nano` `Cartographer` `YOLOv11s` `OpenCV` `Python`
   * 🔗 [Repository](https://github.com/Imdaeding/Autonomous_Indoor_Navigation_Robot_Utilizing_YOLO_And_SLAM) | [Demo / Documentation](https://notion.so/링크)
 
-* **무선 통신 기반 스마트 버스 정류장 호출 단말기**
-  * **Summary:** 교통 약자를 위한 저전력 무선 호출 단말기 및 직관적인 UI 인터페이스 구축
-  * **Role & Tech:** HC-12 무선 RF 통신 프로토콜 설계, Raspberry Pi Zero & TFT 디스플레이 GUI 구현, 임베디드 시리얼 통신 안정화
-  * **Stack:** `Raspberry Pi Zero 2 W` `Arduino Nano` `Python (GUI)` `HC-12 RF`
+- **무선 통신 기반 스마트 버스 정류장 호출 단말기**
+  * **Summary:** 공공데이터(TAGO) API 연동 및 저전력 RF 통신 기반의 교통 약자용 스마트 버스 호출·환경 제어 시스템
+  * **Role & Tech:** Flask REST API 및 HC-12 433MHz 무선 통신 프로토콜 설계, Flet 반응형 터치스크린 UI 구현, 온습도 모니터링 및 조도 센서 연동 자동 조명 제어
+  * **Stack:** `Raspberry Pi Zero 2 WH` `Arduino Nano` `Python (Flask / Flet)` `HC-12 RF`
   * 🔗 [Repository](https://github.com/Imdaeding/Smart_Bus_Stop_Call_System)
 
 ---
 
 #### 2. ⚡ Digital & Analog Circuit Design
 
-* **아날로그 7음계 광학 신디사이저 (Optical Piano)**
-  * **Summary:** 광센서 반응형 발진기 및 BJT 푸시풀 증폭단을 적용한 하드웨어 회로 설계
-  * **Role & Tech:** Wien Bridge 발진 회로 파라미터 설계, LM339 비교기 기반 센싱단 튜닝, Push-Pull 증폭단 임피던스 매칭
-  * **Stack:** `Analog Circuit` `TL084` `LM339` `PSpice Simulation` `Soldering`
+- **아날로그 7음계 광학 신디사이저 (Optical Piano)**
+  * **Summary:** 광센서 반응형 빈 브리지 발진기 및 BJT 푸시풀 증폭단을 적용한 순수 아날로그 하드웨어 신디사이저 설계
+  * **Role & Tech:** Wien-Bridge 발진 회로 파라미터 설계, LM339 비교기 및 듀얼 2N3904 기반 Mute 스위칭 튜닝, Negative Feedback 결합형 Push-Pull 증폭단 교차 왜곡 보상
+  * **Stack:** `Analog Circuit` `TL084` `LM339` `TIP41C/42C` `PSpice Simulation`
   * 🔗 [Repository](https://github.com/Imdaeding/7-Note-Analog-Optical-Theremin)
 
 ---
 
 #### 3. 🧠 AI Automation & Systems
 
+- **가방 소지품 기반 성향·MBTI 추론 AI 웹 서비스 (WatchingBag)**
+  * **Summary:** 구조주의 기호학 매트릭스와 RAG 벡터 정규화 파이프라인을 결합한 하이브리드 성향 추론 웹 애플리케이션
+  * **Role & Tech:** `pgvector` 코사인 유사도 기반 비정형 소지품 명칭 정규화, 결정론적 기호학 가중치 스코어링과 LLM(Structured Output) 결합으로 할루시네이션 차단, 배치 임베딩 최적화
+  * **Stack:** `Next.js` `TypeScript` `Supabase (pgvector)` `RAG` `Vercel`
+  * 🔗 [Showcase Repository](https://github.com/Imdaeding/WatchingBag) | [Live Demo](https://watching-bag.vercel.app)
+
 ---
 
 ### 📈 GitHub Activities
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=[YOUR_GITHUB_ID]&show_icons=true&theme=default&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_GITHUB_ID]&layout=compact&theme=default&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Imdaeding&show_icons=true&theme=default&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Imdaeding&layout=compact&theme=default&hide_border=true" width="48%" />
 </div>
 
 <div align="center">
