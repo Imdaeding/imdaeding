@@ -59,7 +59,7 @@
   * **Summary:** 광센서 반응형 발진기 및 BJT 푸시풀 증폭단을 적용한 하드웨어 회로 설계
   * **Role & Tech:** Wien Bridge 발진 회로 파라미터 설계, LM339 비교기 기반 센싱단 튜닝, Push-Pull 증폭단 임피던스 매칭
   * **Stack:** `Analog Circuit` `TL084` `LM339` `PSpice Simulation` `Soldering`
-  * 🔗 [Repository](https://github.com/대현/저장소명)
+  * 🔗 [Repository](https://github.com/Imdaeding/7-Note-Analog-Optical-Theremin)
 
 ---
 
