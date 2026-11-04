@@ -69,7 +69,7 @@
   * **Summary:** 구조주의 기호학 매트릭스와 RAG 벡터 정규화 파이프라인을 결합한 하이브리드 성향 추론 웹 애플리케이션
   * **Role & Tech:** `pgvector` 코사인 유사도 기반 비정형 소지품 명칭 정규화, 결정론적 기호학 가중치 스코어링과 LLM(Structured Output) 결합으로 할루시네이션 차단, 배치 임베딩 최적화
   * **Stack:** `Next.js` `TypeScript` `Supabase (pgvector)` `RAG` `Vercel`
-  * 🔗 [Showcase Repository](https://github.com/Imdaeding/WatchingBag) | [Live Demo](https://watching-bag.vercel.app)
+  * 🔗 [Showcase Repository](https://github.com/Imdaeding/watchingbag_showcase) | [Live Demo](https://watchingbag-rereewb45-imdaeding.vercel.app/)
 
 ---
 
