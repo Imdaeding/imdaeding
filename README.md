@@ -15,7 +15,7 @@
 
 - 🎓 **Major:** 광운대학교 전자통신공학과 (Kwangwoon Univ. Electronic & Communication Engineering)
 - 🔬 **Interests:** 임베디드 시스템, 로보틱스(ROS 2/SLAM), 컴퓨터 비전, 디지털 시스템 설계, AI 에이전트 파이프라인
-- 💡 **Goal:** 
+- 💡 **Goal:** 2035년까지 창업하기! 가장 단순하지만 일상생활에 꼭 필요한 시스템
 
 ---
 
